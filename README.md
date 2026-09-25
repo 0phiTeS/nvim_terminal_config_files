@@ -227,15 +227,6 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 
 ------------------------------------------------------------------------
 
-### Install Powershell Autocompletion
-
-``` powershell
-Notepad $profile
-Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
-```
-
-------------------------------------------------------------------------
-
 # System Information
 
 -   **OS:** Windows 11
